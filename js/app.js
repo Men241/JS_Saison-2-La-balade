@@ -1,15 +1,15 @@
 //// EPISODE 1 : Donne-moi ton adresse e-mail.
 
-// alert(""Ecrire un programme qui demande à l’utilisateur son adresse e-mail et renvoie" +
-//     " un message en cas d’erreur si l’adresse e-mail n’est pas correctement saisie.\n");
-//
-// let email = prompt("Veuillez rentrer votre email");
-//
-// if(/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/.test(email)){
-//     alert("Adresse e-mail valide!");
-// }else{
-//     alert("Erreur : Adresse e-mail non valide!");
-// }
+alert("Ecrire un programme qui demande à l’utilisateur son adresse e-mail et renvoie" +
+    " un message en cas d’erreur si l’adresse e-mail n’est pas correctement saisie.\n");
+
+let email = prompt("Veuillez rentrer votre email");
+
+if(/^[a-z0-9._-]+@[a-z0-9._-]+\.[a-z]{2,6}$/.test(email)){
+    alert("Adresse e-mail valide!");
+} else {
+    alert("Erreur : Adresse e-mail non valide!");
+}
 
 //////////////////////////////////////////////
 
@@ -24,11 +24,11 @@
 //
 // // Déclarons une variable.
 //
-// let motdePasse = prompt("Veuillez rentrer votre email");
+// let motdePasse = prompt("Veuillez rentrer votre mot de passe");
 //
 // // Conditions.
 //
-// if(/^[a-z0-9A-Z]{3,}$/.test(motdePasse)){
+// if(/^[a-z0-9A-Z]{8,}$/.test(motdePasse)){
 //     alert("Mot de passe valide!");
 // }else{
 //     alert("Erreur : Mot de passe non valide!");
@@ -56,10 +56,11 @@
 // alert(nom + ", vous avez " + enfant + " enfants.");
 
 
-//////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-//// EPISODE 4 : Dit moi, quand es-tu né?
+                                    //// EPISODE 4 : Dit moi, quand es-tu né?
 
 // alert("Ecrire un programme demande la date de naissance d’un utilisateur " +
 //     "et vérifie si la date saisie est au format JJ/MM/AAAA. Exemple : 13/05/2020.")
@@ -74,7 +75,11 @@
 // }
 
 
-//// EPISODE 5 : Fiche de renseignement.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+                                //// EPISODE 5 : Fiche de renseignement.
 
 // alert("Ecrire un programme qui :\n" +
 //     "demande à l'utilisateur de saisir son nom, prénom ainsi que son sexe ;\n" +
@@ -92,7 +97,11 @@
 //
 // console.log(user);
 
-//// EPISODE 6 : Fiche de renseignement.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+                                //// EPISODE 6 : Fiche de renseignement.
 
 // alert("Episode 6 : Quel jour sommes-nous ?\n" +
 //     "Ecrire un programme qui demande à l’utilisateur de saisir le numéro d’un jour et renvoie le jour correspondant. \n" +
@@ -100,37 +109,57 @@
 //     "Entrée : 3\n" +
 //     "Sortie : Mercredi\n" +
 //     "\tNB : Les jours doivent être stockés au préalable dans un tableau.");
-//
+/
 // // Initialisation tableau
 //
 // let day = ["Lundi", "Mardi", "Mercredi","Jeudi", "Vendredi", "Samedi", "Dimanche"];
 // let choix = day[prompt("Rentrer un nombre")];
 //
-// // affichage
+// // Exécution du code
 //
 // alert(choix);
 
-//// EPISODE 7 : Admis ou recalé.
 
-alert("Ecrire un programme qui demande à l’utilisateur de saisir toutes ses notes en Mathématiques " +
-      "et affiche sa moyenne. " +
-      "NB : Les notes varient de 0 à 20 et seront stockées dans un tableau.");
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+                                //// EPISODE 7 : Admis ou recalé.
+
+/* Ecrire un programme qui demande à l’utilisateur de saisir toutes ses notes en Mathématiques
+ * et affiche sa moyenne.
+ * NB : Les notes varient de 0 à 20 et seront stockées dans un tableau."
+ */
+
 
 // Initialisation des variables
 
-let math = {
-    note1: parseInt(prompt("Entrez votre premiere note :")),
-    note2: parseInt(prompt("Entrez votre deuxieme note :")),
-    note3: parseInt(prompt("Entrez votre troisieme note :")),
-    note4: parseInt(prompt("Entrez votre quatrieme note :")),
-};
+// let math = {
+//     note1: parseInt(prompt("Entrez votre premiere note :")),
+//     note2: parseInt(prompt("Entrez votre deuxieme note :")),
+//     note3: parseInt(prompt("Entrez votre troisieme note :")),
+//     note4: parseInt(prompt("Entrez votre quatrieme note :")),
+// };
+//
+// let note = [math.note1, math.note2, math.note3, math.note4];
+//
+// let noteT = math.note1 + math.note2 + math.note3 + math.note4;
+//
+// let moyen = noteT/note.length;
+//
+// // Exécution du code
+//
+// alert(moyen);
 
-let note = [math.note1, math.note2, math.note3, math.note4];
 
-let noteT = math.note1 + math.note2 + math.note3 + math.note4;
 
-let moyen = noteT/note.length;
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Visualisation de la moyenne
 
-alert(moyen);
+//                                     //// EPISODE 8 : PROCLAMATION.
+// alert("Ecrire un programme qui demande de saisir les noms et les moyennes des élèves d’une classe et affiche " +
+//     "le premier de la classe (son nom ainsi que sa moyenne).\n" +
+//     "NB : Le nombre d’élèves n’est pas connu d’avance.");
+//
+// // Initalisation des variables
+// let
+
